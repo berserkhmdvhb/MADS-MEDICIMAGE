@@ -10,7 +10,7 @@ antsRegistrationSyNQuick.sh -d 3 -f /home/hamed/Documents/Projects/medical/datas
 antsRegistrationSyNQuick.sh -f /home/hamed/Documents/Projects/medical/dataset/MNI_SPACE/t1.nii -m /home/hamed/Documents/Projects/medical/dataset/imagesTr/BRATS_200.nii -o BRATS_200_mapped
 
 ---
-si -N 1 --exclusive -t 01:00:00
+srun -p batch --time=49:00:0 -N 2 -c 12 --pty bash -i
 module load tools/EasyBuild
 eb -S ants
 CFGS1=/opt/apps/resif/iris-rhel8/2020b/broadwell/software/EasyBuild/4.6.1/easybuild/easyconfigs
