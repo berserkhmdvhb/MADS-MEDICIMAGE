@@ -28,8 +28,8 @@ The architecture is represented in this picture:
 In the following, the denoised version of images using the network are displayed:
 
 <p float="left">
-<img src="TASK3/denoised/denoised_abd_cross.jpg" align="center" style="width: 30%;"/>
-<img src="TASK3/denoised/denoised_abd_cross_noisy.jpg" align="center" style="width: 30%;"/>
+<img src="TASK3/denoised/denoised_abd_cross.jpg" align="center" style="width: 20%;"/>
+<img src="TASK3/denoised/denoised_abd_cross_noisy.jpg" align="center" style="width: 20%;"/>
 </p>
 
 As one can see, the denoising was rather successful.
