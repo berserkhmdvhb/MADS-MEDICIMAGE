@@ -1,7 +1,13 @@
 # MADS-MEDICIMAGE
 This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 4 tasks are solved and the implementation and results of tasks 2 and 4 are provided in the repository. In the current README, the solutions are documented and explained.
 
-- ![**TASK 3**](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 **TASK 3**
 ---
 **TASK 4**
