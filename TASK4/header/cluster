@@ -1,0 +1,28 @@
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/labelsTr/BRATS_003.nii.gz /home/hamed/Documents/Projects/medical/dataset/train
+
+
+imagesTr  imagesTs  labelsTr
+
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_010.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_050.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_090.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_100.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_200.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_300.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_400.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_484.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+
+
+
+
+
