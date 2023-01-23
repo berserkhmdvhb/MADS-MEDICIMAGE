@@ -64,12 +64,14 @@ Do the same steps with `~/.bash_profile`.
 scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Projects/medical/dataset/output/
 ```
 
-# Implementation
 
-## Image Restoration
+
+# Image Restoration
 
 Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/brats2020/data.html) to apply image registration using ANTs software.
 
+
+## Header 
 The header of nifti files derived from BRATS were checked to have more sense of their format. Using the value of `sform_code` or `qform_code`, the coordinate system of the file is determined.
 The values for these codes are defined as following:
 
@@ -82,13 +84,14 @@ The values for these codes are defined as following:
 | 4 |MNI 152 normalized coordinates.    |
 
 
-## Run ANTs
-To run ANTs on cluster: 
+## Mapping to Templates
 
+### MNI
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
 ```
 
+### Segmentation
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_seg -j 12
 ```
