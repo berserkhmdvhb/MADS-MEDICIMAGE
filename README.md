@@ -105,12 +105,13 @@ Evidenced by the figures, there is a bit of tilt in the horizontal direction, wh
 
 ### MNI
 
-The following syntax was used to map the original image to the MNI 
+The following syntax was used to map the original image to the MNI space.
+
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
 ```
 
-
+The antsRegistration would output mapped impages (from fixed image `t1.nii` to moving image `BRATS_003.nii`)
 
 
 ### Segmentation
