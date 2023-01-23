@@ -5,8 +5,7 @@ This repository is dedicated to the group project of the course "Introduction to
 + TASK2
 ```
 
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `A`
-
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 3`
 
 **TASK 3**
 ---
