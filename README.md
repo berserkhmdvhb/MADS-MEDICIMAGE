@@ -84,7 +84,7 @@ The values for these codes are defined as following:
 | 3 | Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc. |
 | 4 | MNI 152 normalized coordinates. |
 
-The [reg.py](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/Header/header.py) script is written to check for all `nii` files in a directory with name `imagesTr` and to append `TRUE` if the the qs-form had value 4, i.e., the image was registered with MNI template.
+The [reg.py](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/header/header.py) script is written to check for all `nii` files in a directory with name `imagesTr` and to append `TRUE` if the the qs-form had value 4, i.e., the image was registered with MNI template.
 For all the images in BERTS dataset, the header's number was 4 i.e., they were scanner-based based coordinates.
 
 
@@ -95,9 +95,9 @@ The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 
 
 <p float="left">
-<img src="output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
-<img src="output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
-<img src="output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
 </p>
 
 Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.
