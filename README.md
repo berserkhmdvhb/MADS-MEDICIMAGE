@@ -1,11 +1,11 @@
 # MADS-MEDICIMAGE
-This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 4 tasks from the homework file [PDF](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/homework_file.pdf) are solved and explained in this repository. The implementation and results of tasks 2 and 4 are also provided. In the current README, the solutions are documented and explained.
+This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 4 tasks that are contained the [main PDF of homework](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/homework_file.pdf) are solved and explained in this repository. The implementation and results of tasks 2 and 4 are also provided. In the current README, the solutions are documented and explained.
 
 
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 1`
 ---
-Please find the solution in the [main PDF of project](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/homework_file.pdf), containing all the questions and solution of only task 1.
+Please find the solution in the [main PDF of homework](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/homework_file.pdf), containing all the questions and solution of only task 1.
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 2`
 ---
