@@ -75,9 +75,11 @@ The values for these codes are defined as following:
 
 | [qs](https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform.html#refqs) form_code value:        |  (x,y,z) coordinate system refers to:           | 
 |:-------------:|:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| 0      | Arbitrary coordinates  |
+| 1      | Scanner-based anatomical coordinates      |
+| 2 | Coordinates aligned to another file's, or to anatomical "truth"      |
+| 3 |Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc.     |
+| 4 |MNI 152 normalized coordinates.    |
 
 #define NIFTI_XFORM_UNKNOWN      0 /! Arbitrary coordinates (Method 1). /
 
