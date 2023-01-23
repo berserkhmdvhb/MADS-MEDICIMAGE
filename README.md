@@ -204,5 +204,5 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 ```
 Atropos -d 3 -a /home/hamed/Documents/Projects/medical/dataset/imagesTr/BRATS_003.nii -c 5 -i 'KMeans[5]' -o BRATS_003_seg
 
-Atropos -d 3 -a /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -c 5 -m 'MLP-EM' -i 100 -k 'KMeans' -o /home/users/hvaheb/medicimg/output/segment/BRATS_003_segmented
+Atropos -d 3 -a /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_segWarped.nii.gz -c 5 -m 'MLP-EM' -i 100 -k 'KMeans' -o /home/users/hvaheb/medicimg/output/segment/BRATS_003_segmented
 ```
