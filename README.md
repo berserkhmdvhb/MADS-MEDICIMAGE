@@ -9,7 +9,7 @@ This repository is dedicated to the group project of the course "Introduction to
 ---
 In the following, a brief description of solution of Task 3 is provided:
 
-"task3.m" contains the processing of the Abingdon-Cross images. The first step of our processing is to denoise the noisy Abingdon-cross image; this is done using the pre-defined denoiser CNN architecture "DnCNN", which can be used in the "denoiseImage()" function.
+[task3.m](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK3/task3.m) contains the processing of the Abingdon-Cross images. The first step of our processing is to denoise the noisy Abingdon-cross image; this is done using the pre-defined denoiser CNN architecture `DnCNN`, which can be used in the `denoiseImage()` function.
 
 The architecture is represented in this picture:
 
