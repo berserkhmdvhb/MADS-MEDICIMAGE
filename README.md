@@ -81,19 +81,6 @@ The values for these codes are defined as following:
 | 3 |Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc.     |
 | 4 |MNI 152 normalized coordinates.    |
 
-#define NIFTI_XFORM_UNKNOWN      0 /! Arbitrary coordinates (Method 1). /
-
-
-#define NIFTI_XFORM_SCANNER_ANAT 1 /! Scanner-based anatomical coordinates /
-
-
-#define NIFTI_XFORM_ALIGNED_ANAT 2 /! Coordinates aligned to another file's, or to anatomical "truth".            /
-
-
-#define NIFTI_XFORM_TALAIRACH    3 /! Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc. /
-
-
-#define NIFTI_XFORM_MNI_152      4 /! MNI 152 normalized coordinates. /
 
 ## Run ANTs
 To run ANTs on cluster: 
