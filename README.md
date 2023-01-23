@@ -9,7 +9,7 @@ Please find the solution in the [main PDF of homework](https://github.com/berser
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 2`
 ---
-Please find the solution in
+Please find the solution in [task2.pdf](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK2/task2.pdf). The code used to generate the plots of the PDF is provided in [task2.m](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK2/task2.m)
 
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 3`
