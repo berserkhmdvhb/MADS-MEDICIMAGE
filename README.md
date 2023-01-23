@@ -123,9 +123,9 @@ In below the outputs are presented:
 ### Segmentation
 
 <p float="left">
-<img src="TASK4/output/BRETS/warped-mni/snapshot0007.png" align="center" style="width: 25%;"/>
-<img src="TASK4/output/BRETS/warped-mni/snapshot0008.png" align="center" style="width: 25%;"/>
-<img src="TASK4/output/BRETS/warped-mni/snapshot0009.png" align="center" style="width: 25%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0007.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0008.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0009.png" align="center" style="width: 30%;"/>
 </p>
 
 ```
