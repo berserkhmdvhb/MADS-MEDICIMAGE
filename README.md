@@ -188,6 +188,12 @@ In below the outputs are presented:
 
 ### MNI-Segmented
 
+<p float="left">
+<img src="TASK4/output/BRETS/warped-mni-seg/snapshot0001.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni-seg/snapshot0002.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni-seg/snapshot0003.png" align="center" style="width: 30%;"/>
+</p>
+
 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_seg -j 12
