@@ -97,6 +97,12 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.n
 <img src="output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
 <img src="output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
 
+1             |  2         |          3     |
+:-------------------------:|:-------------------------:---------------:
+![`input1`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png) | ![`input2`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png) |![`input3`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
+
+
+
 
 ### Segmentation
 ```
