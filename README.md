@@ -148,7 +148,7 @@ The values for these codes are defined as following:
 | 4 | MNI 152 normalized coordinates. |
 
 The [reg.py](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/header/header.py) script is written to check for all `nii` files in a directory with name `imagesTr` and to append `TRUE` if the the qs-form had value 4, i.e., the image was registered with MNI template.
-For all the images in BERTS dataset, the header's number was 4 i.e., they were scanner-based based coordinates.
+For all the images in BRATS dataset, the header's number was 4 i.e., they were scanner-based based coordinates.
 
 
 ## Mapping to Templates
