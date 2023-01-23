@@ -1,12 +1,8 @@
 # MADS-MEDICIMAGE
 
-
-
-EasyBuild made life harder actually.
-I resorted to building ANTs from source:
+This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg
 
 ## Installing Cmake
-
 Firstly, choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```
@@ -52,12 +48,13 @@ Add the following paths but adjust it to your own machine:
 
 
 ```
+export ANTSPATH=/home/hamed/Documents/Projects/medical/antsbin/ANTS-build/Examples
+export PATH=$PATH:$ANTSPATH
 
 ```
 
 
-```
-nano ~/.bash_profile```
+Do the same steps with `~/.bash_profile`.
 
 
 
