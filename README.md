@@ -2,7 +2,7 @@
 This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 
 
 # Installation of ANTs
-## Installing Cmake
+## Instal Cmake
 Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```
@@ -16,7 +16,7 @@ gmake install
 ```
 
 
-## Install ANTs
+## Compile ANTs from source
 Instructions of installing ANTs on HPC cluster:
 
 ```
