@@ -38,7 +38,10 @@ After the denoising, the binary segementation is carried out using the "imbinari
 
 The resulting segmented images can be seen here:
 
-------PUT IMAGES FROM seg.zip file-----------
+<p float="left">
+<img src="TASK3/seg/seg_denoised_abd_cross.jpg" align="center" style="width: 20%;"/>
+<img src="TASK3/seg/seg_denoised_abd_cross_noisy.jpg" align="center" style="width: 20%;"/>
+</p>
 
 The area and perimeters are computed using "bwarea()" and "regionprops()"" repsectively, which returns a pixel count.
 
