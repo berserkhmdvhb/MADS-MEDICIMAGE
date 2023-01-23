@@ -95,7 +95,7 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.n
 ```
 
 <p float="left">
-<img src="output/BRETS/initial/snapshot0003.png" align="center" style="width: 23%;"/>
+<img src="output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
 <img src="output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
 <img src="output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
 </p>
