@@ -70,7 +70,7 @@ scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Pr
 # Image Restoration
 
 Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/brats2020/data.html) to apply image registration using ANTs software.
-
+A particular sample used is the `BRATS_003.nii.gz` file.
 
 ## Header 
 The header of nifti files derived from BRATS were checked to have more sense of their format. Using the value of `sform_code` or `qform_code`, the coordinate system of the file is determined.
@@ -104,6 +104,8 @@ Evidenced by the figures, there is a bit of tilt in the horizontal direction, wh
 
 
 ### MNI
+
+The following syntax was used to map the 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
 ```
