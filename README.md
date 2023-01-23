@@ -61,7 +61,7 @@ Do the same steps with `~/.bash_profile`.
 
 **Side Note**: To copy output images from cluster to local machine, the following
 
-```
+```bash
 scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Projects/medical/dataset/output/
 ```
 
