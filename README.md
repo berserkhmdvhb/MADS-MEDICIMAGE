@@ -80,7 +80,7 @@ gmake install
 
 
 ## Compile ANTs from source
-Instructions of installing ANTs on HPC cluster:
+Instructions of installing ANTs on HPC cluster, partly followed by [this link](https://brianavants.wordpress.com/2012/04/13/updated-ants-compile-instructions-april-12-2012/):
 
 ```bash
 cd medicimage/
