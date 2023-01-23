@@ -48,9 +48,8 @@ Add the following paths but adjust it to your own machine:
 
 
 ```bash
-export ANTSPATH=/home/hamed/Documents/Projects/medical/antsbin/ANTS-build/Examples
+export ANTSPATH=/home/users/hvaheb/medicimg/antsbin/ANTS-build/Examples
 export PATH=$PATH:$ANTSPATH
-
 ```
 
 
