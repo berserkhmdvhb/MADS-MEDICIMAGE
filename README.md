@@ -1,8 +1,9 @@
 # MADS-MEDICIMAGE
-This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 
+This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 4 tasks are solved and the implementation and results of tasks 2 and 4 are provided in the repository. In the current README, the solutions are documented and explained.
 
-# Installation of ANTs
-## Instal Cmake
+# TASK 4
+## Installation of ANTs
+### Instal Cmake
 `Cmake` is a requirement for installing ANTs from source. Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```bash
@@ -16,7 +17,7 @@ gmake install
 ```
 
 
-## Compile ANTs from source
+### Compile ANTs from source
 Instructions of installing ANTs on HPC cluster:
 
 ```bash
@@ -67,12 +68,12 @@ scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Pr
 
 
 
-# Image Restoration
+## Image Restoration
 
 Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/brats2020/data.html) to apply image registration using ANTs software.
 A particular sample used is the `BRATS_003.nii.gz` file.
 
-## Header 
+### Header 
 The header of nifti files derived from BRATS were checked to have more sense of their format. Using the value of `sform_code` or `qform_code`, the coordinate system of the file is determined.
 The values for these codes are defined as following:
 
@@ -88,7 +89,7 @@ The [reg.py](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/he
 For all the images in BERTS dataset, the header's number was 4 i.e., they were scanner-based based coordinates.
 
 
-## Mapping to Templates
+### Mapping to Templates
 In this sections, all `nii` files' visualizations are obtained from screenshots of the [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) software.
 
 The initial sample image `BRATS_003.nii.gz` is visualized in the following:
@@ -100,10 +101,10 @@ The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 <img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 30%;"/>
 </p>
 
-Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.
+Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.  The former is the standard template for 3 meta 
 
 
-### MNI
+#### MNI
 
 Provided in the cluster is the MNI space coordinated image `t1.nii`, whic is used to transform the original image `BRATS_003.nii` to `t1.nii`, which is also called the moving image.
 The `antsRegistration` commaned was used to map the original image to the MNI space, as follows:
@@ -123,7 +124,7 @@ In below the outputs are presented:
 </p>
 
 
-### Segmentation
+#### MNI-Segmented
 
 
 ```
