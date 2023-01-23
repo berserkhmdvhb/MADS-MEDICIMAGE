@@ -17,7 +17,7 @@ gmake install
 
 
 ## Install ANTs
-To install ANTs on cluster:
+Instructions of installing ANTs on HPC cluster:
 
 ```
 cd medicimage/
