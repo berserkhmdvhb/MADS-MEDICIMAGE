@@ -13,7 +13,7 @@ The initial images are displayed in the following:
 
 <p float="left">
 <img src="TASK3/initial/Abgcross-Original.png" align="center" style="width: 20%;"/>
-<img src="abgcross_noise.png" align="center" style="width: 20%;"/>
+<img src="TASK3/initial/abgcross_noise.png" align="center" style="width: 20%;"/>
 </p>
 
 
