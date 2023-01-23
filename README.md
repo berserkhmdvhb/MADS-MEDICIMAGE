@@ -88,7 +88,7 @@ For all the images in BERTS dataset, the header's number was 4 i.e., they were s
 
 
 ## Mapping to Templates
-In this sections, all `nii` files are visualized using the [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) software.
+In this sections, all `nii` files' visualizations are obtained from screenshots of the [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) software.
 
 The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 
