@@ -105,16 +105,28 @@ Evidenced by the figures, there is a bit of tilt in the horizontal direction, wh
 
 ### MNI
 
-The following syntax was used to map the original image to the MNI space.
+Provided in the cluster is the MNI space coordinated image `t1.nii`, whic is used to transform the original image `BRATS_003.nii` to `t1.nii`, which is also called the moving image.
+The `antsRegistration` commaned was used to map the original image to the MNI space, as follows:
 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
 ```
 
-The antsRegistration would output mapped impages (from fixed image `t1.nii` to moving image `BRATS_003.nii`)
+In below the outputs are presented:
 
+<p float="left">
+<img src="TASK4/output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
+</p>
 
 ### Segmentation
+
+<p float="left">
+<img src="TASK4/output/BRETS/warped-mni/snapshot0007.png" align="center" style="width: 25%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0008.png" align="center" style="width: 25%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0009.png" align="center" style="width: 25%;"/>
+</p>
 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_seg -j 12
