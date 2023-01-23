@@ -9,11 +9,6 @@ This repository is dedicated to the group project of the course "Introduction to
 ---
 
 
-```diff
-+ TASK2
-```
----
-
 
 
 **TASK 4**
