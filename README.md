@@ -163,7 +163,7 @@ The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 <img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 30%;"/>
 </p>
 
-Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.  The former is the standard template containing 3 big meta-brain structure, while the latter contains the most inner structure, which is why it is called segmentation, as it contains the last segemented component of the former template.
+Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.  The former is the standard template of MNI space, while the latter contains 3 big meta-brain structure, which is why it is called segmentation, as it contains the last segemented component of the former template.
 
 
 ### MNI
