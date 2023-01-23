@@ -32,7 +32,7 @@ gmake
 gmake install
 ```
 
-scp -r iris-cluster:/scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_484.nii.gz /home/hamed/Documents/Projects/medical/dataset/imagesTr/
+To run ANTs on cluster
 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii -o BRATS_003_mapped
