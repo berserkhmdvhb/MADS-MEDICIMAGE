@@ -23,7 +23,7 @@ The initial images are displayed in the following:
 
 The architecture is represented in this picture:
 
-<img src="TASK3/architecture.jpg" align="center" style="width: 50%;"/>
+<img src="TASK3/architecture.jpg" align="center" style="width: 70%;"/>
 
 Here, we can compare the noisy abdington cross image and the denoised image:
 
