@@ -199,5 +199,8 @@ Provided in the cluster is the MNI space coordinated image `simple_segmentation.
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_seg -j 12
 ```
 
+# Image Segmentation
 
-
+```
+Atropos -d 3 -a /home/hamed/Documents/Projects/medical/dataset/imagesTr/BRATS_003.nii -c 5 -i 'KMeans[5]' -o BRATS_003_seg
+```
