@@ -94,9 +94,9 @@ For all the images in BERTS dataset, the header's number was 4 i.e., they were s
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
 ```
 
-[`input1`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
-[`input2`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
-[`input3`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
+![`input1`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
+![`input2`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
+![`input3`](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/output/BRETS/initial/snapshot0004.png)
 
 
 ### Segmentation
