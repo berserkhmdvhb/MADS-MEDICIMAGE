@@ -12,9 +12,8 @@ The initial images are displayed in the following:
 
 
 <p float="left">
-<img src="TASK4/output/BRETS/warped-mni/snapshot0007.png" align="center" style="width: 30%;"/>
-<img src="TASK4/output/BRETS/warped-mni/snapshot0008.png" align="center" style="width: 30%;"/>
-<img src="TASK4/output/BRETS/warped-mni/snapshot0009.png" align="center" style="width: 30%;"/>
+<img src="TASK3/initial/Abgcross-Original.png" align="center" style="width: 20%;"/>
+<img src="abgcross_noise.png" align="center" style="width: 20%;"/>
 </p>
 
 
