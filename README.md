@@ -6,6 +6,8 @@ This repository is dedicated to the group project of the course "Introduction to
 ```
 
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `A`
+
+
 **TASK 3**
 ---
 **TASK 4**
