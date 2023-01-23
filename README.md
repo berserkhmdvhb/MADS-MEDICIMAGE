@@ -93,16 +93,20 @@ In this sections, all `nii` files are visualized using the [ITK-SNAP](http://www
 The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 
 
-### MNI
-```
-antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
-```
-
 <p float="left">
 <img src="output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
 <img src="output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
 <img src="output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
 </p>
+
+Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header)
+
+
+### MNI
+```
+antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
+```
+
 
 
 
