@@ -1,7 +1,7 @@
 # MADS-MEDICIMAGE
-This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg
+This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 
 
-
+# Installation
 ## Installing Cmake
 Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
@@ -57,6 +57,36 @@ Do the same steps with `~/.bash_profile`.
 
 
 
+
+**Side Note**: To copy output images from cluster to local machine, the following
+
+```
+scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Projects/medical/dataset/output/
+```
+
+# Results
+
+## Image Restoration
+
+Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/brats2020/data.html) to apply image registration using ANTs software.
+
+The header of nifti files derived from BRATS were checked to have more sense of their format. Using the value of `sform_code` or `qform_code`, the coordinate system of the file is determined.
+The values for these codes are defined as following:
+
+#define NIFTI_XFORM_UNKNOWN      0 /! Arbitrary coordinates (Method 1). /
+
+
+#define NIFTI_XFORM_SCANNER_ANAT 1 /! Scanner-based anatomical coordinates /
+
+
+#define NIFTI_XFORM_ALIGNED_ANAT 2 /! Coordinates aligned to another file's, or to anatomical "truth".            /
+
+
+#define NIFTI_XFORM_TALAIRACH    3 /! Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc. /
+
+
+#define NIFTI_XFORM_MNI_152      4 /! MNI 152 normalized coordinates. /
+
 ## Run ANTs
 To run ANTs on cluster: 
 
@@ -69,6 +99,4 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 ```
 
 
-```
-scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Projects/medical/dataset/output/
-```
+
