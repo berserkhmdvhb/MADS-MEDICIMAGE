@@ -11,8 +11,9 @@ This repository is dedicated to the group project of the course "Introduction to
 
 
 
-**TASK 4**
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 4`
 ---
+
 # Installation of ANTs
 ## Instal Cmake
 `Cmake` is a requirement for installing ANTs from source. Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
