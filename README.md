@@ -34,7 +34,7 @@ In the following, the denoised version of images using the network are displayed
 
 As one can see, the denoising was rather successful.
 
-After the denoising, the binary segementation is carried out using the "imbinarize()", which successfully segements the image into "background" and "cross".
+After the denoising, the binary segementation is carried out using the `imbinarize()`, which successfully segements the image into "background" and "cross".
 
 The resulting segmented images can be seen here:
 
@@ -43,7 +43,7 @@ The resulting segmented images can be seen here:
 <img src="TASK3/seg/seg_denoised_abd_cross_noisy.jpg" align="center" style="width: 20%;"/>
 </p>
 
-The area and perimeters are computed using "bwarea()" and "regionprops()"" repsectively, which returns a pixel count.
+The area and perimeters are computed using `bwarea()` and `regionprops()` repsectively, which returns a pixel count. The aforementioned quantities are presented in the following table:
 
 For the inital binarized image:
 
@@ -52,6 +52,13 @@ Area: 3.5442e+04 Perimeter: 1.2507e+03
 and for the denoised image:
 
 Area: 1.3488e+03 Perimeter: 3.5347e+04
+
+| | Area | Perimeters | 
+|:-------------:|:-------------:|:-------------:|
+| Binary Image | 3.5442e+04 | 1.2507e+03
+| Denoised Image | 1.3488e+03 | 3.5347e+04
+
+
 
 Finally, the DICE score is used to check how "far apart" both segmentations are. This score returns a value of 0.9947.
 
