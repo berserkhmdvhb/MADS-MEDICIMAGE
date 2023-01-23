@@ -47,7 +47,7 @@ nano ~/.bashrc
 Add the following paths but adjust it to your own machine:
 
 
-```
+```bash
 export ANTSPATH=/home/hamed/Documents/Projects/medical/antsbin/ANTS-build/Examples
 export PATH=$PATH:$ANTSPATH
 
