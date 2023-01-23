@@ -7,7 +7,37 @@ This repository is dedicated to the group project of the course "Introduction to
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 3`
 ---
+In the following, a brief description of solution of Task 3 is provided:
 
+"task3.m" contains the processing of the Abingdon-Cross images. The first step of our processing is to denoise the noisy Abingdon-cross image; this is done using the pre-defined denoiser CNN architecture "DnCNN", which can be used in the "denoiseImage()" function.
+
+The architecture is represented in this picture:
+
+---PUT DnCNN picture here------
+
+Here, we can compare the noisy abdington cross image and the denoised image:
+
+-----PUT IMAGES HERE PLS HAMED, only the one with noise and its denoised image-------
+
+As one can see, the denoising was rather successful.
+
+After the denoising, the binary segementation is carried out using the "imbinarize()", which successfully segements the image into "background" and "cross".
+
+The resulting segmented images can be seen here:
+
+------PUT IMAGES FROM seg.zip file-----------
+
+The area and perimeters are computed using "bwarea()" and "regionprops()"" repsectively, which returns a pixel count.
+
+For the inital binarized image:
+
+Area: 3.5442e+04 Perimeter: 1.2507e+03
+
+and for the denoised image:
+
+Area: 1.3488e+03 Perimeter: 3.5347e+04
+
+Finally, the DICE score is used to check how "far apart" both segmentations are. This score returns a value of 0.9947.
 
 
 
