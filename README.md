@@ -64,7 +64,7 @@ Do the same steps with `~/.bash_profile`.
 scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Projects/medical/dataset/output/
 ```
 
-# Results
+# Implementation
 
 ## Image Restoration
 
@@ -72,6 +72,12 @@ Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/bra
 
 The header of nifti files derived from BRATS were checked to have more sense of their format. Using the value of `sform_code` or `qform_code`, the coordinate system of the file is determined.
 The values for these codes are defined as following:
+
+| [qs](https://nifti.nimh.nih.gov/nifti-1/documentation/nifti1fields/nifti1fields_pages/qsform.html#refqs) form_code value:        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 #define NIFTI_XFORM_UNKNOWN      0 /! Arbitrary coordinates (Method 1). /
 
