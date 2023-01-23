@@ -8,6 +8,17 @@ This repository is dedicated to the group project of the course "Introduction to
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 3`
 ---
 In the following, a brief description of solution of Task 3 is provided:
+The initial images are displayed in the following:
+
+
+<p float="left">
+<img src="TASK4/output/BRETS/warped-mni/snapshot0007.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0008.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni/snapshot0009.png" align="center" style="width: 30%;"/>
+</p>
+
+
+
 
 [task3.m](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK3/task3.m) contains the processing of the Abingdon-Cross images. The first step of our processing is to denoise the noisy Abingdon-cross image; this is done using the pre-defined denoiser CNN architecture `DnCNN`, which can be used in the `denoiseImage()` function.
 
