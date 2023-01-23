@@ -45,20 +45,10 @@ The resulting segmented images can be seen here:
 
 The area and perimeters are computed using `bwarea()` and `regionprops()` repsectively, which returns a pixel count. The aforementioned quantities are presented in the following table:
 
-For the inital binarized image:
-
-Area: 3.5442e+04 Perimeter: 1.2507e+03
-
-and for the denoised image:
-
-Area: 1.3488e+03 Perimeter: 3.5347e+04
-
 | | Area | Perimeters | 
 |:-------------:|:-------------:|:-------------:|
 | Binary Image | 3.5442e+04 | 1.2507e+03
 | Denoised Image | 1.3488e+03 | 3.5347e+04
-
-
 
 Finally, the DICE score is used to check how "far apart" both segmentations are. This score returns a value of 0.9947.
 
