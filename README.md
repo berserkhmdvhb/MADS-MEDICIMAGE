@@ -3,7 +3,7 @@ This repository is dedicated to the group project of the course "Introduction to
 
 # Installation of ANTs
 ## Instal Cmake
-Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
+`Cmake` is a requirement for installing ANTs from source. Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```
 srun -p batch --time=24:00:0 -N 2 -c 12 --pty bash -i
