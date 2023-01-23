@@ -95,9 +95,9 @@ The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 
 
 <p float="left">
-<img src="TASK4/output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
-<img src="TASK4/output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
-<img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0004.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0005.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 30%;"/>
 </p>
 
 Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.
@@ -114,19 +114,17 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.n
 
 In below the outputs are presented:
 
-<p float="left">
-<img src="TASK4/output/BRETS/initial/snapshot0004.png" align="center" style="width: 23%;"/>
-<img src="TASK4/output/BRETS/initial/snapshot0005.png" align="center" style="width: 23%;"/>
-<img src="TASK4/output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
-</p>
 
-### Segmentation
 
 <p float="left">
 <img src="TASK4/output/BRETS/warped-mni/snapshot0007.png" align="center" style="width: 30%;"/>
 <img src="TASK4/output/BRETS/warped-mni/snapshot0008.png" align="center" style="width: 30%;"/>
 <img src="TASK4/output/BRETS/warped-mni/snapshot0009.png" align="center" style="width: 30%;"/>
 </p>
+
+
+### Segmentation
+
 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_seg -j 12
