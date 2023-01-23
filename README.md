@@ -132,6 +132,7 @@ scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Pr
 
 # Image Restoration
 
+The outpus of this section and next section are all stored in this [Google Drive link](https://drive.google.com/drive/folders/1hvrKTuzw4cGJjQkEZDB3G4ZUHOr7O-Gt?usp=sharing).
 Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/brats2020/data.html) to apply image registration using ANTs software.
 A particular sample used is the `BRATS_003.nii.gz` file.
 
