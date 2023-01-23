@@ -2,7 +2,7 @@
 This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 
 
 # Installation of ANTs
-## Instal Cmake
+## Installing Cmake
 Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```
@@ -16,7 +16,7 @@ gmake install
 ```
 
 
-## Compile ANTs
+## Install ANTs
 Instructions of installing ANTs on HPC cluster:
 
 ```
@@ -93,6 +93,9 @@ For all the images in BERTS dataset, the header's number was 4 i.e., they were s
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
 ```
+
+[`tar_visnetwork`](https://github.com/berserkhmdvhb/aiinsurance/blob/main/inst/figures/tar_visnetwork.png)
+
 
 ### Segmentation
 ```
