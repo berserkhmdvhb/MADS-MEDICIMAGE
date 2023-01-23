@@ -5,7 +5,7 @@ This repository is dedicated to the group project of the course "Introduction to
 ## Instal Cmake
 `Cmake` is a requirement for installing ANTs from source. Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
-```
+```bash
 srun -p batch --time=24:00:0 -N 2 -c 12 --pty bash -i
 wget https://github.com/Kitware/CMake/releases/download/v3.25.2/cmake-3.25.2.tar.gz
 tar xzf cmake-3.25.2.tar.gz
@@ -19,7 +19,7 @@ gmake install
 ## Compile ANTs from source
 Instructions of installing ANTs on HPC cluster:
 
-```
+```bash
 cd medicimage/
 git clone https://github.com/ANTsX/ANTs
 mkdir antsbin
@@ -29,18 +29,19 @@ ccmake ../ANTs
 Navigate into cmake and type `c` and then `g`  then exit back to the
 terminal.
 
-```
+```bash
 make -j 4
 ```
 
 Navigate to the root folder contating `ANTs` and `antsbin` 
-```
+
+```bash
 cp ANTs/Scripts/* antsbin/ANTS-build/Examples/
 ```
 
 Now we need to set the bashrc paths accordingly:
 
-```
+```bash
 nano ~/.bashrc
 ```
 
@@ -99,7 +100,7 @@ The initial sample image `BRATS_003.nii.gz` is visualized in the following:
 <img src="output/BRETS/initial/snapshot0006.png" align="center" style="width: 23%;"/>
 </p>
 
-Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header)
+Evidenced by the figures, there is a bit of tilt in the horizontal direction, which is speculated to be attributed to the scanner-based (x,y,z) coordinate system, as investigated in [Header](#Header). To restore image to a proper alignment space, the [MNI](#MNI) template and [segmentation](#MNI) template are used.
 
 
 ### MNI
