@@ -18,3 +18,16 @@ eb -Dr /opt/apps/resif/iris-rhel8/2020b/broadwell/software/EasyBuild/4.6.1/easyb
 
 ```
 
+EasyBuild made life harder actually.
+I resorted to building ANTs from source:
+
+
+---
+srun -p batch --time=24:00:0 -N 2 -c 12 --pty bash -i
+wget http://www.cmake.org/files/v2.8/cmake-2.8.3.tar.gz
+tar xzf cmake-2.8.3.tar.gz
+cd cmake-2.8.3/
+./configure --prefix=$HOME
+gmake
+gmake install
+```
