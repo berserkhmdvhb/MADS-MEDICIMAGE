@@ -189,9 +189,9 @@ In below the outputs are presented:
 ### MNI-Segmented
 
 <p float="left">
-<img src="TASK4/output/BRETS/warped-mni-seg/snapshot0001.png" align="center" style="width: 30%;"/>
-<img src="TASK4/output/BRETS/warped-mni-seg/snapshot0002.png" align="center" style="width: 30%;"/>
-<img src="TASK4/output/BRETS/warped-mni-seg/snapshot0003.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni-seg/snapshot.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni-seg/snapshot2.png" align="center" style="width: 30%;"/>
+<img src="TASK4/output/BRETS/warped-mni-seg/snapshot3.png" align="center" style="width: 30%;"/>
 </p>
 
 
