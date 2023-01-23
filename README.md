@@ -1,9 +1,9 @@
 # MADS-MEDICIMAGE
-
 This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg
 
+
 ## Installing Cmake
-Firstly, choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
+Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```
 srun -p batch --time=24:00:0 -N 2 -c 12 --pty bash -i
@@ -17,7 +17,7 @@ gmake install
 
 
 ## Install ANTs
-To run ANTs on cluster
+To install ANTs on cluster:
 
 ```
 cd medicimage/
@@ -59,6 +59,7 @@ Do the same steps with `~/.bash_profile`.
 
 
 ## Run ANTs
+To run ANTs on cluster: 
 
 ```
 antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii -o BRATS_003_mapped
