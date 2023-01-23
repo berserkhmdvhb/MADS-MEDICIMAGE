@@ -21,7 +21,7 @@ To install ANTs on cluster:
 
 ```
 cd medicimage/
-git clone git://github.com/stnava/ANTs.git
+git clone https://github.com/ANTsX/ANTs
 mkdir antsbin
 cd antsbin
 ccmake ../ANTs
