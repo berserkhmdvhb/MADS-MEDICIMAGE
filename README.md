@@ -1,7 +1,7 @@
 # MADS-MEDICIMAGE
 This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 
 
-# Installation
+# Installation of ANTs
 ## Installing Cmake
 Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
@@ -82,6 +82,9 @@ The values for these codes are defined as following:
 | 2 | Coordinates aligned to another file's, or to anatomical "truth" |
 | 3 | Coordinates aligned to Talairach-Tournoux Atlas; (0,0,0)=AC, etc. |
 | 4 | MNI 152 normalized coordinates. |
+
+The [reg.py](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/Header/header.py) script is written to check for all `nii` files in a directory with name `imagesTr` and to append `TRUE` if the the qs-form had value 4, i.e., the image was registered with MNI template.
+For all the images in BERTS dataset, the header's number was 4 i.e., they were scanner-based based coordinates.
 
 
 ## Mapping to Templates
