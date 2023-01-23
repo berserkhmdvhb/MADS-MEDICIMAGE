@@ -187,7 +187,7 @@ In below the outputs are presented:
 
 
 ### MNI-Segmented
-
+Provided in the cluster is the MNI space coordinated image `simple_segmentation.nii` but it is segmented to have only the inner structure, which is used to transform the original image `BRATS_003.nii` to `t1.nii`, which is also called the moving image.
 <p float="left">
 <img src="TASK4/output/BRETS/warped-mni-seg/snapshot.png" align="center" style="width: 30%;"/>
 <img src="TASK4/output/BRETS/warped-mni-seg/snapshot2.png" align="center" style="width: 30%;"/>
