@@ -223,6 +223,10 @@ In below the normalized nitfi image of `BRATS_003` as well as its label (the tum
 ![BRATS_003_LABEL](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/gif/BRATS_003_label.gif)
 ## Implementation
 
+### Simple Effects
+![SEGMENT_EFFECT](TASK4/output/BRETS/segment/effects.png)
+
+
 Due to time limit, only one sample, which is `BRATS_003` is considered for training set, and sample `BRATS_200` is considered for test set.
 
 Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
