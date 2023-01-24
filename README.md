@@ -244,7 +244,8 @@ After binary segmentation, one could transform them into grayscale images, with 
 
 If the images all now have the same format and the same size, we can average (pixel-by-pixel) over the whole dataset, and display the "average" image of the dataset. This means that regions were tumors were segmented in a dark color, the averaged pixel of those same regions would have a darker spot in the "averaged" image. This region, which looks like a gray cloud, would indicate where tumors could be found.
 
-$$I_{avg}= {\sum_{k=1}^{m}} \sum_{i,j=1}^{n} \frac{p(i,j)}{m}$$, 
+$$I_{avg}= {\sum_{k=1}^{m}} \sum_{i,j=1}^{n} \frac{p(i,j)}{m},$$ 
+
 where $p \in \[0,255\]$.
 
 If the distinction would not be visible enough, one could use a gamma-correction to compress the dynamic range, and render visible the "tumor area".
