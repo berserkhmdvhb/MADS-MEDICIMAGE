@@ -202,8 +202,26 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 
 # Image Segmentation
 
+The following syntax was attempted using Atropos, a segemntation tool from Ants
 ```
 Atropos -d 3 -a /home/hamed/Documents/Projects/medical/dataset/imagesTr/BRATS_003.nii -c 5 -i 'KMeans[5]' -o BRATS_003_seg
 
 Atropos -d 3 -a /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_segWarped.nii.gz -c 5 -m 'MLP-EM' -i 100 -k 'KMeans' -o /home/users/hvaheb/medicimg/output/segment/BRATS_003_segmented
 ```
+
+There was not output, hence I proceeded with MONAI Python.
+
+Before that, I needed to normalize also the labels of the chose input images, as they are later used for mask image during segmentation.
+
+The following command was executed:
+
+```
+antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/labelsTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/labels/BRATS_003_label_mapped_seg -j 12
+```
+
+
+## Visualization
+
+
+## Implementation
+Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
