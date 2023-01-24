@@ -231,8 +231,8 @@ Please find the [Python notebook for segmentation](https://colab.research.google
 ## Statistics
 The idea to quantify where tumors are more likely to be found could be handeled in the following manner: 
 
-Firstly, Segment the images that are available into "Tumor" and "Non-Tumor" areas, suing a binary segmentation.
+Firstly, segment the images that are available into "Tumor" and "Non-Tumor" areas, using a binary segmentation.
 
-After binary segmentation, one could transform them into grayscale images, with black being 0 and the former 1 (white) taking the value 255. This would be done for all images in the dataset. Now in order to get a general picture on where one would predominantly find the tumors, one could create an average of the voxels. This only works because we find oruselfs in the same, standardized MNI space.
+After binary segmentation, one could transform them into grayscale images, with black being 0 and the former 1 (white) taking the value 255. This would be done for all images in the dataset. Now in order to get a general picture on where one would predominantly find the tumors, one could create an average of the voxels. This only works because we find oruselvess in the same, standardized MNI space.
 
-This would mean that we would get darker spots for an averaged image (over the whole dataset) in which one predominantly finds tumors, kind of like a grayscale version of a heatmap. 
+This results to getting darker spots for an averaged image (over the whole dataset), in which one predominantly finds tumors, kind of like a grayscale version of a heatmap. 
