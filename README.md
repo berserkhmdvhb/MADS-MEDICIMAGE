@@ -187,17 +187,21 @@ In below the outputs are presented:
 
 
 ### MNI-Segmented
-Provided in the cluster is the MNI space coordinated image `simple_segmentation.nii` but it is segmented to have only the inner structure, which is used to transform the original image `BRATS_003.nii` to `t1.nii`, which is also called the moving image.
+Provided in the cluster is the MNI space coordinated image `simple_segmentation.nii` but it is segmented to have only the inner structure, which is used to transform the original image `BRATS_003.nii` to `t1.nii`, which is also called the moving image. Similar to the command in previous template, the following command was used:
+
+```
+antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/003/BRATS_003_mapped_seg -j 12
+```
+In below the outputs are presented:
+
 <p float="left">
 <img src="TASK4/output/BRETS/warped-mni-seg/snapshot.png" align="center" style="width: 30%;"/>
 <img src="TASK4/output/BRETS/warped-mni-seg/snapshot2.png" align="center" style="width: 30%;"/>
 <img src="TASK4/output/BRETS/warped-mni-seg/snapshot3.png" align="center" style="width: 30%;"/>
 </p>
 
+Evidenced by the plots, the `simple_segmentation.nii` leads to a improved allignment of the images. Threfore, the images normalized with this format were used for the subsequent parts of this work.
 
-```
-antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/003/BRATS_003_mapped_seg -j 12
-```
 
 # Image Segmentation
 Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
