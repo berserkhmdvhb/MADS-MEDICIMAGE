@@ -1,7 +1,7 @@
 # MADS-MEDICIMAGE
 This repository is dedicated to the group project of the course "Introduction to Deep Learning for Image Analysis and Computer Vision" at the Universeity of Luxembourg. 4 tasks that are asked in the [main PDF of homework](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/homework_file.pdf) are solved and explained in this repository. The implementation and results of tasks 2 and 4 are also provided. In the current README, the solutions are documented and explained.
 
-Group Members: Hamed VAHEB, Max SINNER
+**Group Members**: Hamed VAHEB, Max SINNER
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 1`
 ---
