@@ -173,7 +173,7 @@ Provided in the cluster is the MNI space coordinated image `t1.nii`, whic is use
 The `antsRegistration` commaned was used to map the original image to the MNI space, as follows:
 
 ```
-antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/BRATS_003_mapped -j 12
+antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/t1.nii -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/003/BRATS_003_mapped -j 12
 ```
 
 In below the outputs are presented:
@@ -197,7 +197,7 @@ Provided in the cluster is the MNI space coordinated image `simple_segmentation.
 
 
 ```
-antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_seg -j 12
+antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/imagesTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/003/BRATS_003_mapped_seg -j 12
 ```
 
 # Image Segmentation
@@ -216,7 +216,7 @@ Before that, I needed to normalize also the labels of the chose input images, as
 The following command was executed:
 
 ```
-antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/labelsTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/labels/BRATS_003_label_mapped_seg -j 12
+antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/labelsTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/labels/003/BRATS_003_label_mapped_seg -j 12
 ```
 
 
