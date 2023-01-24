@@ -201,6 +201,7 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 
 # Image Segmentation
 Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
+
 Using the nii filled registered (normalized) to MNI space in [Image Restoration](#Image-Restoration), this section is dedicated to segmenting tumor from other regions of brain.
 
 The following syntax was attempted using [Atropos](https://manpages.debian.org/experimental/ants/Atropos.1.en.html), a segemntation tool from Ants:
