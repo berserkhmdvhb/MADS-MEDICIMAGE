@@ -211,16 +211,10 @@ Atropos -d 3 -a /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_segWarpe
 
 There was not output, hence I proceeded with MONAI Python.
 
-Before that, I needed to normalize also the labels of the chose input images, as they are later used for mask image during segmentation.
-
-The following command was executed:
-
-```
-antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simple_segmentation.nii  -m /scratch/users/ahusch/MSDS_19/DATASETS/BRATS_dataset/labelsTr/BRATS_003.nii.gz -o /home/users/hvaheb/medicimg/output/seg/labels/003/BRATS_003_label_mapped_seg -j 12
-```
-
 
 ## Visualization
+
+In below the normalized nitfi image of `BRATS_003` as well as its label (the tumor provided in the directory segmentation) are visualized.
 
 ### BRATS_003 Normalized
 ![BRATS_003](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/gif/BRATS_003_mapped.gif)
@@ -228,6 +222,9 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 ### BRATS_003 Label
 ![BRATS_003_LABEL](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/gif/BRATS_003_label.gif)
 ## Implementation
+
+Due to time limit, only one sample, which is `BRATS_003` is considered for training set, and sample `BRATS_200` is considered for test set.
+
 Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
 
 
