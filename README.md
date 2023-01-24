@@ -226,7 +226,7 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 ![BRATS_003](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/gif/BRATS_003_mapped.gif)
 
 ### BRATS_003 Label
-
+![BRATS_003_LABEL](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/TASK4/gif/BRATS_003_label.gif)
 ## Implementation
 Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
 
