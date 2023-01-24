@@ -236,10 +236,14 @@ Due to time limit, only one sample, which is `BRATS_003` is considered for train
 
 
 ## Statistics
-The idea to quantify where tumors are more likely to be found could be handeled in the following manner: 
+The idea to quantify where tumors are more likely to be found could be handeled in the following manner:
 
 Firstly, segment the images that are available into "Tumor" and "Non-Tumor" areas, using a binary segmentation.
 
-After binary segmentation, one could transform them into grayscale images, with black being 0 and the former 1 (white) taking the value 255. This would be done for all images in the dataset. Now in order to get a general picture on where one would predominantly find the tumors, one could create an average of the voxels. This only works because we find oruselvess in the same, standardized MNI space.
+After binary segmentation, one could transform them into grayscale images, with black being 0 and the former 1 (white) taking the value 255. This would be done for all images in the dataset. Now in order to get a general picture on where one would predominantly find the tumors, one could create an average of the voxels. This only works because we find ourselves in the same, standardized MNI space.
 
-This results to getting darker spots for an averaged image (over the whole dataset), in which one predominantly finds tumors, kind of like a grayscale version of a heatmap. 
+If the images all now have the same format and the same size, we can average (pixel-by-pixel) over the whole dataset, and display the "average" image of the dataset. This means that regions were tumors were segmented in a dark color, the averaged pixel of those same regions would have a darker spot in the "averaged" image. This region, which looks like a gray cloud, would indicate where tumors could be found.
+
+$I_avg = \sum_k=1^m \sum_i,j=1^n \frac{p(i,j)}{m}$, where $ p \in [0,255]$.
+
+If the distinction would not be visible enough, one could use a gamma-correction to compress the dynamic range, and render visible the "tumor area".
