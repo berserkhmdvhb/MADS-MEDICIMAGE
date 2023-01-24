@@ -209,7 +209,8 @@ Atropos -d 3 -a /home/hamed/Documents/Projects/medical/dataset/imagesTr/BRATS_00
 Atropos -d 3 -a /home/users/hvaheb/medicimg/output/seg/BRATS_003_mapped_segWarped.nii.gz -c 5 -m 'MLP-EM' -i 100 -k 'KMeans' -o /home/users/hvaheb/medicimg/output/segment/BRATS_003_segmented
 ```
 
-There was not output, hence I proceeded with MONAI Python.
+There was not output, hence I proceeded with Python.
+Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
 
 
 ## Visualization
@@ -224,12 +225,13 @@ In below the normalized nitfi image of `BRATS_003` as well as its label (the tum
 ## Implementation
 
 ### Simple Effects
+
+Using [Nilearn](https://nilearn.github.io/stable/index.html), the following segmentation plots are derived from the nii files of `BRATS_003`
 ![SEGMENT_EFFECT](TASK4/output/BRETS/segment/effects.png)
 
 
 Due to time limit, only one sample, which is `BRATS_003` is considered for training set, and sample `BRATS_200` is considered for test set.
 
-Please find the [Python notebook for segmentation](https://colab.research.google.com/drive/1NDcPMk2WL8Rw3PYMl8VBdXeWPj4Mivqy?usp=sharing).
 
 
 ## Statistics
