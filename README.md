@@ -65,7 +65,7 @@ Finally, the DICE score is used to check how "far apart" both segmentations are.
 ---
 
 # Installation of ANTs
-## Instal Cmake
+## Installing Cmake
 `Cmake` is a requirement for installing ANTs from source. Choose the [Cmake version](https://cmake.org/download/), and then use it in the `wget` command below
 
 ```bash
