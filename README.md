@@ -3,7 +3,7 @@ This repository is dedicated to the group project of the course "Introduction to
 
 
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `+ Task 1`
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Task 1`
 ---
 Please find the solution in the [main PDF of homework](https://github.com/berserkhmdvhb/MADS-MEDICIMAGE/blob/main/homework_file.pdf), containing all the questions and solution of only task 1.
 
