@@ -131,7 +131,6 @@ scp -r iris-cluster:/home/users/hvaheb/medicimg/output/ /home/hamed/Documents/Pr
 
 
 # Image Restoration
-
 The outpus of this section and next section are all stored in this [Google Drive link](https://drive.google.com/drive/folders/1hvrKTuzw4cGJjQkEZDB3G4ZUHOr7O-Gt?usp=sharing).
 Samples were chosen from the [BRATS dataset](https://www.med.upenn.edu/cbica/brats2020/data.html) to apply image registration using ANTs software.
 A particular sample used is the `BRATS_003.nii.gz` file.
@@ -201,8 +200,7 @@ antsRegistrationSyNQuick.sh -d 3 -f /scratch/users/ahusch/MSDS_19/MNI_SPACE/simp
 ```
 
 # Image Segmentation
-
-Using the nii filled registered (normalized) to MNI space in (#Image-Restoration), this section is dedicated to segmenting tumor from other regions of brain.
+Using the nii filled registered (normalized) to MNI space in [Image Restoration](#Image-Restoration), this section is dedicated to segmenting tumor from other regions of brain.
 
 The following syntax was attempted using [Atropos](https://manpages.debian.org/experimental/ants/Atropos.1.en.html), a segemntation tool from Ants:
 
