@@ -236,8 +236,6 @@ Using [Nilearn](https://nilearn.github.io/stable/index.html), the following segm
 
 <img src="TASK4/output/BRETS/segment/effects.png" align="center" style="width: 70%;"/>
 
-Due to time limit, only one sample, which is `BRATS_003` is considered for training set, and sample `BRATS_200` is considered for test set.
-
 
 
 ## Statistics
