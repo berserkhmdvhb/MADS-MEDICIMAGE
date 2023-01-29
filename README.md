@@ -63,9 +63,9 @@ The area and perimeters are computed using `bwarea()` and `regionprops()` repsec
 | | Area | Perimeters | 
 |:-------------:|:-------------:|:-------------:|
 | Binary Image | 3.5442e+04 | 1.2507e+03
-| Denoised Image | 3.5347e+04 | 1.3488e+03
+| Denoised Image | 3.5495e+04 | 1.2305e+03
 
-Finally, the DICE score is used to check how "far apart" both segmentations are. This score returns a value of 0.9947.
+Finally, the DICE score is used to check how "far apart" both segmentations are. This score returns a value of 0.9975.
 
 
 
