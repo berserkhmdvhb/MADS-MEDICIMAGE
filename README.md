@@ -50,7 +50,7 @@ The resulting segmented images can be seen below:
 <img src="TASK3/seg/seg_denoised_abd_cross_noisy.jpg" align="center" style="width: 20%;"/>
 </p>
 
-Evidenced by the plots, the binarized segmented version of figures have high resemblance, however, in the noisy version, some noises are visible on edges and as tiny points in cross. To remove them from the noisy version, dilation and erosion operations are used in the form of applying a imopen and then an imclose using disks of size 7. The final results are displayed below:
+Evidenced by the plots, the binarized segmented version of figures have high resemblance, however, in the noisy version, some noises are visible on edges and as tiny points in cross. To remove them from the noisy version, dilation and erosion operations are used in the form of applying a `imclose()` on the binarized image, and then an `imopen()` on the closed image, using disks of size 7. The final results are displayed below:
 
 <p float="left">
 <img src="TASK3/clopen_seg_denoise/clopen_seg_denoise_abd_cross.png" align="center" style="width: 20%;"/>
